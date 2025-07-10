@@ -1,4 +1,4 @@
-#escrito por: Leonardo Otero
+#Escrito por: Leonardo Otero
 #09/07/2025
 
 print ("Bienvenido")
