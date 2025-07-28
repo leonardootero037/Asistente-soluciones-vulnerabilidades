@@ -22,7 +22,8 @@ El proyecto está dividido actualmente en dos carpetas principales: `Vulnerabili
 
 ## Uso
 
-Al iniciar el programa, se presentará una interfaz que explica su propósito y los temas disponibles para explorar. Para navegar por las interfaces, se utilizan los números del teclado. Simplemente lea y siga las instrucciones en pantalla, que le guiarán sobre cómo usar los números para desplazarse entre las interfaces.
+Para poder iniciar el programa, primero este debe ser descomprimido con algún software especializado en archivos .zip.
+Una vez descomprimido, al iniciar el programa, se presentará una interfaz que explica su propósito y los temas disponibles para explorar. Para navegar por las interfaces, se utilizan los números del teclado. Simplemente lea y siga las instrucciones en pantalla, que le guiarán sobre cómo usar los números para desplazarse entre las interfaces.
 
 Por ejemplo, para acceder a la sección de **Comandos de Verificación de Seguridad**, debes presionar el número correspondiente (en este caso: 2) que se muestre en la interfaz. La lógica de selección de opciones en el código fuente se maneja de la siguiente manera: 
 
