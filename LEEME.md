@@ -1,27 +1,34 @@
---Asistente de soluciones a vulnerabilidades--
+# Asistente General de Analistas de Ciberseguridad (A.G.A.C)
 
-El código que se ira desarrollando con el paso del tiempo almacenado en este repositorio tendra la función de ayudar a los empleados de una organización a encontrar soluciones inmediatas a las vulnerabilidades identificadas en los sistemas de la organización.
-El propósito de este código es agilizar la toma de medidas de mitigación hacia vulnerabilidades.
-Este código esta siendo escrito con el lenguaje de programación: Python.
+[cite_start]Este proyecto [cite: 1] [cite_start]ofrece respuestas a preguntas comunes para analistas y estudiantes en el campo en constante expansión de la ciberseguridad. [cite: 1]
 
-Para usar este código se debe de describir la vulnerabilidad identificada, si dentro de esta descripción hay una palabra clave que coincide con las
-vulnerabilidades predefenidas en la función, se escribiran las soluciones a esa vulnerabilidad predefinida.
+[cite_start]El objetivo principal de este asistente [cite: 2] [cite_start]es facilitar el reconocimiento de medidas de mitigación contra vulnerabilidades y la comprensión de comandos esenciales para análisis forenses. [cite: 2] [cite_start]Resuelve la incertidumbre que puede surgir durante el estudio o en la labor diaria de un analista de ciberseguridad. [cite: 3] [cite_start]Las respuestas están formateadas con líneas separadoras para una lectura más sencilla y clara. [cite: 4]
 
-Por ejemplo, si el empleado describe una vulnerabilidad relacionada con el control de acceso de alguno de los sistemas de la organización, y en esa descripción menciona la palabra "acceso", el código le dara las soluciones predefinidas hasta ese momento para esa vulnerabilidad.
+## [cite_start]Características Principales [cite: 5]
 
-La entrada seria asi:
+* [cite_start]Orientación sobre mitigación de riesgos y respuesta a incidentes. [cite: 5]
+* [cite_start]Información detallada sobre comandos útiles para verificación de seguridad. [cite: 5]
 
-Vulnerabilidad: Usuarios han obtenido acceso no autorizado a funciones avanzadas del sistema
+## Requisitos
 
-La salida seria asi:
+* [cite_start]Python 3 (cualquier versión reciente debería funcionar). [cite: 5]
 
-Soluciones:
-- Implementar sistema de autenticación
-- Implementar sistema de privilegios segun nivel de usuario
-- Implementar validación de funcionalidades del lado del servidor solamente
+## [cite_start]Estructura del Proyecto [cite: 6]
 
-Ire actualizando el asistente con el tiempo.
+[cite_start]El proyecto está dividido actualmente en dos carpetas principales: `Vulnerabilidades` y `Comandos`. [cite: 6]
 
-Este codigo se encuentra bajo la licencia: Creative Commons Zero v1.0 Universal
+* [cite_start]La carpeta `Vulnerabilidades` contiene subcarpetas que albergan los módulos de las distintas vulnerabilidades explicadas en el programa. [cite: 6]
+* [cite_start]La carpeta `Comandos` cumple una función similar, alojando los módulos de los comandos explorados en el programa. [cite: 6]
 
-Gracias por leer.
+## [cite_start]Uso [cite: 7]
+
+[cite_start]Al iniciar el programa, se presentará una interfaz que explica su propósito y los temas disponibles para explorar. [cite: 7] [cite_start]Para navegar, se utilizan los números del teclado. [cite: 7] [cite_start]Simplemente lee y sigue las instrucciones en pantalla, que te guiarán sobre cómo usar los números para desplazarte entre las interfaces. [cite: 8]
+
+[cite_start]Por ejemplo, para acceder a la sección de **Comandos de Verificación de Seguridad**, debes presionar el número correspondiente (1, 2, etc.) que se muestre en la interfaz. [cite: 9] [cite_start]La lógica de selección de opciones en el código fuente se maneja de la siguiente manera: 
+
+```python
+tema_escogido = int(input("Respuesta:"))
+            if tema_escogido == 1:
+                seccion_vulnerabilidades()
+            elif tema_escogido == 2:
+                seccion_comandos()
