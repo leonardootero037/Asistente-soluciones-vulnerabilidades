@@ -34,8 +34,3 @@ tema_escogido = int(input("Respuesta:"))
                 seccion_vulnerabilidades()
             elif tema_escogido == 2:
                 seccion_comandos()
-
-
-## Licencia
-
-El asistente se encuentra bajo la licencia: CC0 Universal 1.0
