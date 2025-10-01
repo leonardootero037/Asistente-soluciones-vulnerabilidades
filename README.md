@@ -7,12 +7,12 @@ En el programa las respuestas están formateadas con líneas separadoras para un
 
 ## Características Principales
 
-* Orientación sobre mitigación de vulnerabilidades.
-* Información sobre comandos útiles para verificación de seguridad.
+* Orientación sobre mitigación de vulnerabilidades
+* Información sobre comandos útiles para verificación de seguridad
 
 ## Requisitos
 
-* Python 3 (cualquier versión reciente).
+* Python 3 (cualquier versión reciente)
 
 ## Estructura del Proyecto
 
